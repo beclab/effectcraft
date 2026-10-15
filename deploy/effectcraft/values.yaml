@@ -1,0 +1,7 @@
+image: docker.io/beclab/effectcraft-web:0.10.0-1
+agentImage: docker.io/beclab/effectcraft-agent:0.10.0-1
+imagePullPolicy: IfNotPresent
+
+workloads:
+  effectcraft:
+    replicaCount: 1
